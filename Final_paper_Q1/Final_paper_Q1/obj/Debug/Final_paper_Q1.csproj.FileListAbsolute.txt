@@ -1,0 +1,14 @@
+D:\Final_paper_Q1\Final_paper_Q1\bin\Debug\Final_paper_Q1.exe.config
+D:\Final_paper_Q1\Final_paper_Q1\bin\Debug\Final_paper_Q1.exe
+D:\Final_paper_Q1\Final_paper_Q1\bin\Debug\Final_paper_Q1.pdb
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1.csproj.AssemblyReference.cache
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\MainWindow.baml
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\MainWindow.g.cs
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\App.g.cs
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1_MarkupCompile.cache
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1.g.resources
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1.Properties.Resources.resources
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1.csproj.GenerateResource.cache
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1.csproj.CoreCompileInputs.cache
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1.exe
+D:\Final_paper_Q1\Final_paper_Q1\obj\Debug\Final_paper_Q1.pdb
