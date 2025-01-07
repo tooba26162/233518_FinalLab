@@ -1,0 +1,32 @@
+﻿
+
+<h3>QuestionListComponent</h3>
+
+
+
+// QuestionList.razor
+@code {
+    [Parameter]
+    public List<Question> Questions { get; set; }
+
+    public class Question
+    {
+        public string QuestionText { get; set; }
+        public List<string> Options { get; set; }
+        public string DifficultyLevel { get; set; }
+    }
+}
+
+<div class="question-list">
+    @foreach (var question in Questions)
+    {
+        <QuestionCard QuestionText="@question.QuestionText" Options="@question.Options" DifficultyLevel="@question.DifficultyLevel" />
+    }
+</div>
+
+<style>
+    .question-list {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+</style>

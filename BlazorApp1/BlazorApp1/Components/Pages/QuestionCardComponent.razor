@@ -1,0 +1,34 @@
+﻿<h3>QuestionCardComponent</h3>
+
+
+
+// QuestionCard.razor
+@code {
+    [Parameter]
+    public string QuestionText { get; set; }
+
+    [Parameter]
+    public List<string> Options { get; set; }
+
+    [Parameter]
+    public string DifficultyLevel { get; set; }
+}
+
+<div class="question-card">
+    <h3>@QuestionText</h3>
+    <ul>
+        @foreach (var option in Options)
+        {
+            <li>@option</li>
+        }
+    </ul>
+    <p>Difficulty: @DifficultyLevel</p>
+</div>
+
+<style>
+    .question-card {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 10px 0;
+    }
+</style>

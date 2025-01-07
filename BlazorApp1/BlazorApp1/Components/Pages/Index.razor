@@ -1,0 +1,28 @@
+﻿
+
+
+
+// Index.razor
+@page "/"
+
+@code {
+    private List<QuestionListComponent.Question> quizQuestions = new List<QuestionListComponent.Question>
+    {
+        new QuestionListComponent.Question
+        {
+            QuestionText = "What is the capital of France?",
+            Options = new List<string> { "Paris", "London", "Berlin", "Madrid" },
+            DifficultyLevel = "Easy"
+        },
+        new QuestionListComponent.Question
+        {
+            QuestionText = "Which planet is known as the Red Planet?",
+            Options = new List<string> { "Mars", "Venus", "Jupiter", "Saturn" },
+            DifficultyLevel = "Medium"
+        },
+        // Add more questions here
+    };
+}
+
+<h1>Quiz Questions</h1>
+<QuestionList Questions="quizQuestions" />
